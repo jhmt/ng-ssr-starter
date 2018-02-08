@@ -8,7 +8,10 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:ssr": "ng build --prod && ngc",
+    "start:ssr": "ts-node src/server.ts"
+
   },
   "private": true,
   "dependencies": {
